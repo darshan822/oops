@@ -1,13 +1,4 @@
-/**
- * Purpose : Class implements the interface AddDetails
- * 
- * @author Kumar Shubham
- * @since  03/05/2018
- *
- */
-
 package com.bridgelabz.controller;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

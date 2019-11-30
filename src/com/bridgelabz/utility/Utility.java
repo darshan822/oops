@@ -1,17 +1,8 @@
-/**
- * Purpose : Utility class contains some of the logics
- * 
- * @author Kumar Shubham
- * @since  03/05/2018
- *
- */
 package com.bridgelabz.utility;
-
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-
 import com.bridgelabz.model.Appointment;
 import com.bridgelabz.model.Doctor;
 import com.bridgelabz.model.Patient;

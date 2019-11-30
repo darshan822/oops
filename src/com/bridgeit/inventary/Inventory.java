@@ -1,12 +1,4 @@
-/**
- * Purpose : POJO class for inventory 
- * 
- * @author Kumar Shubham
- * @since  12/05/2018
- *
- */
 package com.bridgeit.inventary;
-
 public class Inventory {
 	private String name;
 	private long weight;

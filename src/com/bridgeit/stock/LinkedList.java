@@ -1,13 +1,4 @@
-/**
- *Purpose: Linked List without using collection librabry 
- * 
- * @author Kumar Shubham
- *
- * @param <T>
- */
-
 package com.bridgeit.stock;
-
 import java.io.*;
 
 public class LinkedList<T> {

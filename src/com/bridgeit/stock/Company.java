@@ -1,15 +1,8 @@
-/**
- * Purpose : POJO for Company
- * 
- * @author Kumar Shubham
- * @since  07/05/2018
- *
- */
 package com.bridgeit.stock;
 
 public class Company 
 {
-	private String company;
+	private String company;//model class for company
 	private long sharesAvailable;
 	private long pricePerShare;
 	@Override

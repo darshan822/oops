@@ -1,14 +1,6 @@
-/**
- * Purpose : POJO for Person
- * 
- * @author Kumar Shubham
- * @since  30/04/2018
- *
- */
-
 package com.bridgeit.addressbook;
 
-public class Person {
+public class Person {//model class for person
 	String firstName;
 	String lastName;
 	Address address;

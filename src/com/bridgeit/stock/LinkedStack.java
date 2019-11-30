@@ -1,13 +1,4 @@
-/**
- * Purpose: Stack via Linked list method without using collection library 
- * 
- * @author Kumar Shubham
- *
- * @param <T>
- */
-
-package com.bridgeit.stock;
-
+ package com.bridgeit.stock;
 public class LinkedStack<T> {
 	Node<T> head;
 	

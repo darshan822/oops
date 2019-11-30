@@ -1,15 +1,5 @@
-/**
- * Purpose: Displaying cards shuffled and distributed with 4 players 
- * 
- * @author Kumar Shubham
- * @since 17-04-2018
- *
- */
-
 package com.bridgeit.programs;
-
 import com.bridgeit.utility.Utility;
-
 public class DeckOfCards {
 	public static void main(String[] args) {
 		Utility utility = new Utility();

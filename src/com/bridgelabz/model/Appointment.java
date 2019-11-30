@@ -1,10 +1,3 @@
-/**
- * Purpose : POJO for Appointment
- * 
- * @author Kumar Shubham
- * @since  03/05/2018
- *
- */
 package com.bridgelabz.model;
 
 public class Appointment {

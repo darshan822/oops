@@ -1,13 +1,4 @@
-/**
- * Purpose : Class implements InventaryMethods interface and all the logic are
- * this class.
- * 
- * @author Kumar Shubham
- * @since  12/05/2018
- * 
- */
 package com.bridgeit.inventary;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;

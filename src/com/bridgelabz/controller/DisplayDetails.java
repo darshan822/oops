@@ -1,11 +1,3 @@
-/**
- * Purpose : Interface to add functionalities to display doctor, patient, appointment,
- * popular doctor and popular specialization
- * 
- * @author Kumar Shubham
- * @since  03/05/2018
- *
- */
 package com.bridgelabz.controller;
 
 import java.util.List;

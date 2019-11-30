@@ -1,14 +1,5 @@
-/**
- * Purpose : Class that implements the interface DisplayDetails
- * 
- * @author Kumar Shubham
- * @since  03/05/2018
- *
- */
 package com.bridgelabz.controller;
-
 import java.util.List;
-
 import com.bridgelabz.model.Appointment;
 import com.bridgelabz.model.Doctor;
 import com.bridgelabz.model.Patient;

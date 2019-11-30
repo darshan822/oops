@@ -1,12 +1,4 @@
-/**
- * Purpose : POJO for Customer
- * 
- * @author Kumar Shubham
- * @since  07/05/2018
- *
- */
 package com.bridgeit.stock;
-
 public class Customer {
 	private String symbol;
 	private long amount;

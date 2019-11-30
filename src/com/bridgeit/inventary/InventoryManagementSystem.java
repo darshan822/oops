@@ -1,16 +1,6 @@
-/**
- * Purpose : Adding, removing products into inventory and calculating its 
- * total weight, total price, saving it in a file and displaying it.
- * 
- * @author Kumar Shubham
- * @since  12/05/2018
- *
- */
 package com.bridgeit.inventary;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import com.bridgelabz.utility.Utility;
 
 public class InventoryManagementSystem {

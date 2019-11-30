@@ -1,12 +1,4 @@
-/**
- * Purpose : Class contains methods implemented by address book interface methods
- * 
- * @author Kumar Shubham
- * @since  30/04/2018
- *
- */
 package com.bridgeit.addressbook;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -22,7 +14,7 @@ import org.codehaus.jackson.type.TypeReference;
 
 import com.bridgeit.utility.Utility;
 
-public class AddressBookImpl implements AddressBook {
+public class AddressBookImpl implements AddressBook {//Implementation class to implement addreesbook interface method
 	Utility utility = new Utility();
 	public static List<Person> list = new ArrayList<Person>();
 	ObjectMapper mapper = new ObjectMapper();
@@ -88,9 +80,7 @@ public class AddressBookImpl implements AddressBook {
 			System.out.println("\n\t\t\tSorry, no such data found");
 	}
 
-	/* 
-	 * Purpose : Sorting of list with respect to name
-	 */
+	
 	public void sortByName() {
 		Collections.sort(list, new SortByName());
 		for (Person person : list) {
@@ -98,9 +88,7 @@ public class AddressBookImpl implements AddressBook {
 		}
 	}
 
-	/*
-	 * Purpose : Sorting of list respect to zip
-	 */
+	
 	public void sortByZip() {
 		Collections.sort(list, new SortByZip());
 		for (Person person : list) {
@@ -142,12 +130,7 @@ public class AddressBookImpl implements AddressBook {
 		return person;
 	}
 
-	/**
-	 * Purpose : Editing of Address and phone number
-	 * 
-	 * @param P is the person object
-	 * @param i is the case for editing address or phone number
-	 */
+	
 	private void editAddressPhone(Person P, int i) {
 		switch (i) {
 		case 1:

@@ -1,13 +1,6 @@
-/**
- * Purpose : POJO for Transaction
- * 
- * @author Kumar Shubham
- * @since  07/05/2018
- *
- */
 package com.bridgeit.stock;
 
-public class Transaction {
+public class Transaction {//model class for transaction
 	private String buySell;
 	private String name;
 	private String symbol;

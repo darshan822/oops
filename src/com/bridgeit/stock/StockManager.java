@@ -1,18 +1,7 @@
-/**
- * Financial system to keep track of Company shares and user shares 
- * 
- * @author Kumar Shubham
- * @since  07/05/2018
- *
- */
 package com.bridgeit.stock;
-
 import java.io.IOException;
-
 import java.util.Date;
-
 import org.json.simple.parser.ParseException;
-
 import com.bridgeit.utility.Utility;
 
 public class StockManager {

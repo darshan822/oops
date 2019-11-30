@@ -1,15 +1,6 @@
-/**
- * Purpose : Contains methods implemented via interface address book manager
- *  
- * @author Kumar Shubham
- * @since  30/04/2018
- *
- */
 package com.bridgeit.addressbook;
-
 import java.io.File;
 import java.io.IOException;
-
 import com.bridgeit.utility.Utility;
 
 public class AddressBookManagerImpl implements AddressBookManager {

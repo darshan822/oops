@@ -1,13 +1,4 @@
-/**
- * Purpose : POJO for Address
- * 
- * @author Kumar Shubham
- * @since  30/04/2018
- *
- */
-
-package com.bridgeit.addressbook;
-
+package com.bridgeit.addressbook;//model class containing only getters and setters for address
 public class Address {
 	String city;
 	String state;

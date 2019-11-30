@@ -1,13 +1,4 @@
-/**
- * Purpose: Creating nodes in Linked List 
- * 
- * @author Kumar Shubham
- *
- * @param <T>
- */
-
 package com.bridgeit.programs;
-
 public class Node<T> {
 	public Node<T> next;
 	public T data;
